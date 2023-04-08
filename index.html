@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <div class="card__header">
+        <img src="images/icon-star.svg" alt="" class="star_icon">
+      </div>
+      <div class="card__body">
+        <h1 class="heading">How did we do?</h1>
+        <p class="description"> Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!</p>
+      </div>
+      <div class="card__footer">
+        <ul class="rating_numbers">
+          <li class="rating--number" data-rating="1">1</li>
+          <li class="rating--number" data-rating="2">2</li>
+          <li class="rating--number" data-rating="3">3</li>
+          <li class="rating--number" data-rating="4">4</li>
+          <li class="rating--number" data-rating="5">5</li>
+        </ul>
+        <button class="submit_btn">Submit</button>
+      </div>
+    </section>
+    <section class="card card--thank-you">
+      <div class="card__header">
+        <img src="images/illustration-thank-you.svg" alt="" class="thank_you_img">
+        <h2 class="selected_rating">You selected <span></span> out of 5</h2>
+      </div>
+      <div class="card__body">
+        <h1 class="heading">Thank you!</h1>
+        <p class="description">We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
